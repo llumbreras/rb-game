@@ -1,3 +1,3 @@
 greeting = "Welcome to a Ruby based Game!"
-
-3.times { |n | puts "#{n} : #{greeting.upcase}" }
+puts Time.now
+3.times { |n| puts "#{n + 1}: #{greeting.upcase}" }
